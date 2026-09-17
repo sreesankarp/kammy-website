@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kammy — turn a spare phone into a camera</title>
+<meta name="description" content="Kammy turns spare phones and IP cameras into a home monitor for babies, pets, and doorways — private, peer-to-peer, and free on your own Wi-Fi." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <div class="wordmark">Kammy</div>
+    <nav class="site">
+      <a href="#features">Features</a>
+      <a href="#plans">Plans</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Keep watch.<em>Stay easy.</em></h1>
+    <p class="lede">
+      Any spare phone becomes a camera. Kammy streams it straight to your other
+      devices, phone to phone, so you can check on a room without a subscription,
+      a hub, or your video passing through anyone else's servers.
+    </p>
+  </div>
+</section>
+
+<main>
+  <section id="features" class="wrap">
+    <h2>What Kammy does</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="icon tier-amber">📱</div>
+        <h3>Any spare phone becomes a camera</h3>
+        <p>No special hardware. Prop up an old phone, open Kammy, and it's watching.</p>
+      </div>
+      <div class="card">
+        <div class="icon tier-coral">🔒</div>
+        <h3>Streams never touch our servers</h3>
+        <p>Video and audio travel directly between your own devices, encrypted end to end. We never see or store it.</p>
+      </div>
+      <div class="card">
+        <div class="icon tier-violet">🎙️</div>
+        <h3>Listen in, or talk back</h3>
+        <p>Hear the room, and hold a button to talk through the camera's speaker when you need to.</p>
+      </div>
+      <div class="card">
+        <div class="icon tier-sky">🔔</div>
+        <h3>Alerts when it matters</h3>
+        <p>A loud noise wakes your other phone with a push notification — even if Kammy is closed.</p>
+      </div>
+      <div class="card">
+        <div class="icon tier-amber">📷</div>
+        <h3>Your IP cameras, together</h3>
+        <p>Kammy finds RTSP and ONVIF cameras already on your Wi-Fi and puts them in the same list as your phones.</p>
+      </div>
+      <div class="card">
+        <div class="icon tier-coral">🏠</div>
+        <h3>Free on your own Wi-Fi, always</h3>
+        <p>Watching from the same network you're on costs nothing and never expires — no trial, no catch.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans" class="wrap">
+    <h2>Plans</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Free</h3>
+        <div class="price">$0</div>
+        <ul>
+          <li>One camera, on your home Wi-Fi</li>
+          <li>Listen and talk-through</li>
+          <li>Loud-noise alerts</li>
+          <li>Supported by ads</li>
+        </ul>
+      </div>
+      <div class="plan premium">
+        <h3>Kammy Anywhere</h3>
+        <div class="price">Watch from anywhere</div>
+        <ul>
+          <li>Everything in Free</li>
+          <li>Unlimited cameras</li>
+          <li>Watch from mobile data, work, or away</li>
+          <li>No ads</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta wrap">
+    <a class="button" href="privacy.html">Read the privacy policy</a>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div>© <span id="year"></span> Kammy. All rights reserved.</div>
+    <div>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

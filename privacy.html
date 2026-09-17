@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacy Policy — Kammy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="legal">
+
+<header class="site">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">Kammy</a>
+    <nav class="site">
+      <a href="index.html">Home</a>
+      <a href="terms.html">Terms</a>
+    </nav>
+  </div>
+</header>
+
+<header class="page">
+  <div class="wrap">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: [FILL IN DATE BEFORE PUBLISHING]</p>
+  </div>
+</header>
+
+<main>
+  <div class="notice">
+    This policy is written to describe, plainly and accurately, what the Kammy
+    app actually does with your data. It is provided as general information
+    and is not a substitute for advice from a qualified lawyer, particularly
+    for anything specific to your jurisdiction (such as GDPR, CCPA, or
+    children's privacy law) before you rely on it commercially.
+  </div>
+
+  <p>
+    Kammy ("Kammy", "we", "us", or "our") provides a mobile application that
+    turns spare phones and IP cameras into a peer-to-peer video monitor for
+    babies, pets, and doorways (the "Service"). This Privacy Policy explains
+    what information the Service collects, how it is used, and the choices
+    you have.
+  </p>
+
+  <p>
+    By creating an account or otherwise using the Service, you agree to the
+    collection and use of information as described in this policy.
+  </p>
+
+  <h2>1. The short version</h2>
+  <ul>
+    <li><strong>Your video and audio never touch our servers.</strong> Streams travel directly between your own devices (or through an encrypted relay when a direct connection isn't possible), and we cannot see or store their contents.</li>
+    <li><strong>Camera credentials for IP cameras never leave your device.</strong> Login details for RTSP/ONVIF cameras are stored only in your phone's secure, encrypted local storage.</li>
+    <li>We store the minimum account and device information needed to make the Service work: who you are, which devices and camera profiles you've set up, and whether you're subscribed.</li>
+    <li>We use a small number of well-known third-party services (listed in Section 4) to handle sign-in, push notifications, crash reporting, subscriptions, and — only for free accounts — advertising.</li>
+  </ul>
+
+  <h2>2. Information we collect</h2>
+
+  <h3>2.1 Account information</h3>
+  <p>
+    Kammy uses Firebase Authentication (Google Sign-In) to create your
+    account. We receive your name, email address, and a unique account
+    identifier from Google. We do not receive or store your Google password.
+  </p>
+
+  <h3>2.2 Device and camera information</h3>
+  <p>When you register a device or set up a camera profile, we store:</p>
+  <ul>
+    <li>A device identifier and the name you give the device (e.g. "Nursery phone")</li>
+    <li>A push-notification token, used to wake a camera or deliver alerts</li>
+    <li>Camera profile details: name, type (e.g. baby, pet, doorway), and — for IP cameras — non-secret connection details such as host, port, and stream path. <strong>Usernames and passwords for IP cameras are never sent to us</strong>; they are stored only on the phone acting as that camera's gateway, and shared directly between your own devices if a backup gateway is set up.</li>
+    <li>A coarse network fingerprint used only to judge whether a connection is on the same Wi-Fi network, for the purpose of applying the free plan's local-only limit</li>
+  </ul>
+
+  <h3>2.3 Alerts and usage</h3>
+  <p>
+    When a camera detects a loud noise, we log the time and an intensity
+    level so the app can show you "quiet since…" information and send a
+    push notification to your other devices. We do not record or store the
+    audio that triggered the alert.
+  </p>
+  <p>
+    For accounts with remote (away-from-home) access, we record the number
+    of bytes relayed through our infrastructure, purely to enforce a fair-use
+    monthly limit. We do not — and cannot — inspect the content of that
+    traffic; it remains end-to-end encrypted.
+  </p>
+
+  <h3>2.4 Subscription information</h3>
+  <p>
+    If you purchase "Kammy Anywhere", our subscription-management provider
+    (RevenueCat) shares your subscription status and renewal dates with us
+    so the app can unlock the correct features. Payment details (card
+    numbers, etc.) are handled entirely by Google Play / Apple's own billing
+    systems and RevenueCat — we never receive or store them.
+  </p>
+
+  <h3>2.5 Diagnostic information</h3>
+  <p>
+    If the app crashes or encounters an unexpected error, a diagnostic
+    report (including device model, OS version, and the error itself) is
+    sent to Firebase Crashlytics to help us fix it. These reports are not
+    designed to, and do not intentionally, include your video, audio, or
+    camera credentials.
+  </p>
+
+  <h3>2.6 Advertising (free plan only)</h3>
+  <p>
+    Free-plan accounts see ads served through Google AdMob, which may use an
+    advertising identifier to serve and measure ads, subject to Google's own
+    privacy policy and your device's ad-tracking settings. Kammy Anywhere
+    subscribers do not see ads and are not served ads by AdMob.
+  </p>
+
+  <h3>2.7 What we do not collect</h3>
+  <ul>
+    <li>We do not request or collect precise location (GPS) data.</li>
+    <li>We do not store the video or audio content of your streams.</li>
+    <li>We do not store IP camera usernames or passwords on our servers.</li>
+    <li>We do not sell your personal information to anyone.</li>
+  </ul>
+
+  <h2>3. How we use information</h2>
+  <p>We use the information above to:</p>
+  <ul>
+    <li>Operate the core functions of the Service — pairing devices, establishing connections, delivering alerts, and waking a camera when a viewer wants to watch</li>
+    <li>Enforce the limits of the plan you're on (e.g. one camera on the free plan, remote access on Kammy Anywhere)</li>
+    <li>Diagnose and fix bugs and crashes</li>
+    <li>Communicate with you about your account or the Service</li>
+    <li>Comply with legal obligations</li>
+  </ul>
+
+  <h2>4. Third-party services we use</h2>
+  <p>The Service relies on the following providers, each of which processes a subset of the information described above under their own privacy policies:</p>
+  <ul>
+    <li><strong>Google Firebase</strong> — authentication, push notifications (Cloud Messaging), and crash reporting (Crashlytics)</li>
+    <li><strong>Cloudflare</strong> — hosts the signalling and account backend, and provides encrypted relay (TURN) service for connections that cannot be made directly</li>
+    <li><strong>RevenueCat</strong> — manages subscription state for Kammy Anywhere</li>
+    <li><strong>Google AdMob</strong> — serves advertising to free-plan accounts</li>
+  </ul>
+
+  <h2>5. Data retention</h2>
+  <p>
+    We retain account, device, and camera-profile information for as long as
+    your account is active. Alert history and relay-usage records are
+    retained only as long as needed for the purposes described above. You
+    can delete your account and associated data at any time (see Section 7).
+  </p>
+
+  <h2>6. Data security</h2>
+  <p>
+    Video and audio streams are encrypted end-to-end using WebRTC's built-in
+    encryption (DTLS/SRTP), whether they travel directly between your
+    devices or through our relay. IP camera credentials are stored using
+    your device's platform-provided secure storage (backed by the Android
+    Keystore). Account data at rest is stored on Cloudflare's infrastructure
+    with industry-standard access controls. No method of transmission or
+    storage is 100% secure, and we cannot guarantee absolute security.
+  </p>
+
+  <h2>7. Your rights and choices</h2>
+  <ul>
+    <li><strong>Access and correction:</strong> You can review and edit your device and camera profile information directly in the app.</li>
+    <li><strong>Deletion:</strong> You may request deletion of your account and associated data by contacting us at the address below. We will delete your data except where retention is required by law.</li>
+    <li><strong>Ad personalization:</strong> You can limit ad tracking through your device's operating system settings.</li>
+    <li><strong>Depending on your location</strong> (for example, under GDPR or CCPA/CPRA), you may have additional rights, including the right to data portability, to object to certain processing, or to lodge a complaint with a supervisory authority.</li>
+  </ul>
+
+  <h2>8. Children's privacy</h2>
+  <p>
+    Kammy is intended to be used by adults to monitor a room, a pet, or a
+    doorway — it is not directed at, and is not intended to be used
+    directly by, children. We do not knowingly collect personal information
+    from children through account registration. If you believe a child has
+    created an account, contact us and we will take appropriate action.
+  </p>
+  <p>
+    Because Kammy can be used as a baby monitor, footage may incidentally
+    show a child; that video is never transmitted to or stored by our
+    servers, for the same reasons described throughout this policy.
+  </p>
+
+  <h2>9. International data transfers</h2>
+  <p>
+    Kammy's infrastructure providers operate global networks, which means
+    your information may be processed in countries other than your own.
+    Where required, we rely on appropriate safeguards for such transfers.
+  </p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>
+    We may update this policy from time to time. If we make material
+    changes, we will notify you through the app or by other reasonable
+    means before the change takes effect.
+  </p>
+
+  <h2>11. Contact us</h2>
+  <p>
+    If you have questions about this policy or want to exercise any of the
+    rights above, contact us at:
+    <br />
+    <strong>[FILL IN CONTACT EMAIL BEFORE PUBLISHING]</strong>
+  </p>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div>© <span id="year"></span> Kammy. All rights reserved.</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
