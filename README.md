@@ -9,9 +9,9 @@ that code.
 
 ## Before this goes live
 
-- [ ] Fill in the contact email in `privacy.html` and `terms.html`
-- [ ] Fill in the effective/updated date in both legal pages
-- [ ] Fill in the legal/business name and governing-law jurisdiction in `terms.html`
+- [x] Fill in the contact email in `privacy.html` and `terms.html`
+- [x] Fill in the effective/updated date in both legal pages
+- [x] Fill in the legal/business name and governing-law jurisdiction in `terms.html`
 - [ ] Have a lawyer review the privacy policy and terms of service
 - [ ] Point the Play Console "Privacy Policy URL" field at the published `privacy.html` URL
 
